@@ -140,14 +140,14 @@ main {
   background-color: #2e2f42;
 }
 
-.title-container span {
+.title-container div {
   display: flex;
   width: 500px;
   height: 100px;
   margin: 60px;
 }
 
-.title-container span h1 {
+.title-container div h1 {
   color: var(--white, #fff);
   text-align: center;
   font-family: Roboto;
