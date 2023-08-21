@@ -40,6 +40,12 @@ header nav {
 header nav a {
   text-decoration: none;
   color: #2e2f42;
+  transition-duration: 0.4s;
+}
+
+header nav a:hover {
+  text-decoration: none;
+  color: var(--iris, #4d5ae5);
 }
 
 .header-content {
@@ -66,14 +72,21 @@ header nav a {
 
 .communication li  {
   list-style-type: none;
- 
 }
 
 
-address ul a {
+address ul li a {
   text-decoration: none;
   color: #2e2f42;
+  transition-duration: 0.4s;
 }
+
+address ul li a:hover {
+  text-decoration: none;
+  color: var(--iris, #4d5ae5);
+}
+
+
 
 /* logo */
 .logo {
@@ -178,6 +191,18 @@ main {
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
+  cursor:pointer;
+  transition-duration: 0.4s;
+}
+
+.order-service:hover{
+  background: #6c74e4;
+  color: var(--iris, #fff);
+}
+
+.order-service:active{
+  background: #fff;
+  color: var(--iris, #0f1228);
 }
 
 /* Second Section */
@@ -381,7 +406,10 @@ h2 {
   height: 250px;
   gap: 24px;
   margin-top:40px;
+}
 
+.btn-nav li {
+  list-style-type: none;
 }
 
 .real-btns {
