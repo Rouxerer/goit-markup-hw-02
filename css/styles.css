@@ -20,9 +20,8 @@
 }
 
 
-
 body {
-  font-family: "Roboto","Raleway" sans-serif;
+  font-family: "Roboto","Raleway", sans-serif;
   background-color: #fff;
   color: var(--body-text);
 }
